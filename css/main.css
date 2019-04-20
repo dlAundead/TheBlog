@@ -1,0 +1,100 @@
+/**************
+*****HEADER****
+***************/
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-menu_item1 {
+  height: 89px;
+  border-bottom: 1px solid #e9e9e9;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo_bg {
+  background: url(../img/header/header-logo.png);
+  width: 131px;
+  height: 24px;
+  margin-left: 30px;
+}
+
+.header-search {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+.header-search li:nth-child(2) {
+  margin: 0 60px 0 15px;
+  font-weight: 300;
+}
+
+.header-search li:last-child {
+  font-weight: 400;
+}
+
+.header-search li a,
+.header-nav li a,
+.header-social li a {
+  text-decoration: none;
+  color: #515151;
+  font-weight: 300; 
+}
+
+.header-search li:hover a,
+.header-nav li:hover a {
+  color: #ee204d;
+  font-weight: 400;
+}
+
+.header-menu_item2 {
+  height: 73px;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  list-style-type: none;
+  display: flex;
+  font-size: 18px;
+}
+
+.header-nav li {
+  margin: 0 15px;
+}
+
+.header-nav li:first-child, 
+.header-social li:first-child {
+  margin-left: 0px;
+}
+
+.header-nav li:last-child,
+.header-social li:last-child {
+  margin-right: 0px;
+}
+
+.header-social {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-social li {
+  margin: 0 10px;
+}
+
+.fa-facebook-f {
+  color: #4267b2;
+}
+
+.fa-twitter {
+  color: #1da1f3;
+}
+
+.fa-google-plus-g {
+  color: #dc4c41;
+}
